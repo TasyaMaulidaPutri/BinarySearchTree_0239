@@ -8,4 +8,10 @@ public:
     Node *leftchild;
     Node *rightchild;
 
+    // Construktor for the node class
+    Node()
+    {
+        leftchild = nullptr; // Intialize left child to null
+        rightchild = nullptr; // Intialize right child to null
+    }
 };
